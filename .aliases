@@ -6,7 +6,14 @@ alias grep='grep --color=auto'
 alias python='python3'
 alias pip='pip3'
 alias clean='rm -rf ~/.Trash/*'
+alias ch='history | grep "git commit"'
+alias hg='history | grep'
+alias COMMIT='git add . && git commit -m "General Update" && git push'
+
+#Dir Shortcuts and ENV Activation
 alias VE='cd ~/Documents/GitHub/EcommerceSite && source ENV/bin/activate'
+alias VB='cd ~/Documents/GitHub/BlogSite && source ENV/bin/activate'
+alias VS='cd ~/Documents/GitHub/Social-MediaSite && source ENV/bin/activate'
 alias GH='cd ~/Documents/GitHub'
 
 # Detect which `ls` flavor is in use
