@@ -1,14 +1,13 @@
 #Shortcuts
 alias cls='clear'
 alias la='ls -la'
-alias update='sudo softwareupdate -i -a'
-alias grep='grep --color=auto'
+alias UPDATE='sudo softwareupdate -i -a'
 alias python='python3'
 alias pip='pip3'
-alias clean='rm -rf ~/.Trash/*'
-alias ch='history | grep "git commit"'
+alias CLEAN='rm -rf ~/.Trash/*'
+alias CH='history | grep "git commit"'
 alias hg='history | grep'
-alias COMMIT='git add . && git commit -m "General Update" && git push'
+alias ACP='git add . && git commit -m "General Update" && git push'
 
 #Dir Shortcuts and ENV Activation
 alias VE='cd ~/Documents/GitHub/EcommerceSite && source ENV/bin/activate'
