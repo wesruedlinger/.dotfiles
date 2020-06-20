@@ -13,6 +13,7 @@ alias ACP='git add . && git commit -m "General Update" && git push'
 alias VE='cd ~/Documents/GitHub/EcommerceSite && source ENV/bin/activate'
 alias VB='cd ~/Documents/GitHub/BlogSite && source ENV/bin/activate'
 alias VS='cd ~/Documents/GitHub/Social-MediaSite && source ENV/bin/activate'
+alias VE2='cd ~/Documents/GitHub/ecommerce2 && source ENV/bin/activate'
 alias GH='cd ~/Documents/GitHub'
 
 # Detect which `ls` flavor is in use
