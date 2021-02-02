@@ -1,2 +1,2 @@
 # .dotfiles
-Macbook dot files and system configuration scripts.
+Unix/Linux dot files and system configuration scripts.
