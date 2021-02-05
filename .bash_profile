@@ -18,16 +18,19 @@ function title {
 }
 
 #Git auto-complete
-#if [ -f ~/.git-completion.bash ]; then
-#    source ~/.git-completion.bash
-#fi
+if [ -f ~/.git-completion.bash ]; then
+  source ~/.git-completion.bash
+fi
 
 #Prompt Settings
 export PS1="\n\[$(tput sgr0)\]\[\033[38;5;33m\]\u\[$(tput sgr0)\]@[\[$(tput sgr0)\]\[\033[38;5;46m\]\w\[$(tput sgr0)\]]\n\[$(tput sgr0)\]\[\033[38;5;27m\]>\[$(tput sgr0)\] \[$(tput sgr0)\]"
 
 #Set Path to include Python3.8 && PIP3
-export PATH="/usr/local/opt/python@3.8/bin:/usr/local/opt/python@3.8/bin/pip3:$PATH"
+export PATH="/usr/local/opt/python@3/bin:/usr/local/opt/python@3/bin/pip3:$PATH"
 export PATH="/usr/local/opt/ncurses/bin:$PATH"
 
 #Remove ZSH message
 export BASH_SILENCE_DEPRECATION_WARNING=1
+
+#Remove MOTD
+mkdir ~/.hushlogin
