@@ -71,8 +71,10 @@ read INPUT
 if [[ $INPUT == "y" ]]
   then
     sudo apt-get install -y git
-    echo "Enter your email and then your first name. This will set up your git config. "
-    read email name
+    echo "Enter your email for git commits. " 
+    read email 
+    echo "Now enter your name for git commits. "
+    read name
     git config --global user.email "$email"
     git config --global user.name "$name"
 fi
@@ -82,7 +84,7 @@ read INPUT
 if [[ $INPUT == "y" ]]
   then
     sudo apt-get install -y visual-studio-code
-    mv ~/.dotfiles/.vscode ~/
+    cp -r ~/.dotfiles/.vscode ~/
 fi
 
 ########################################################
