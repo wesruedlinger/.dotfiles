@@ -1,5 +1,6 @@
-Step to Install
+Linux/Unix System Config Script
+################################
+Steps to Install
 
-First, install homebrew from https://brew.sh/
-Next, clone the .dotfiles to Mac/Linux home directory
-Finally, run this script
+1.) Clone the .dotfiles to Mac/Linux home directory
+2.) Run setup.sh script
